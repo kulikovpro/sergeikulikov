@@ -1,0 +1,397 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+/* Дополнительные шрифты
+============================================= */
+@font-face {
+	font-family: "Verdana";
+	src: url("../font/Verdana-Italic.eot");
+	src: local("Verdana Italic"), local("Verdana-Italic"), url("../font/Verdana-Italic.eot?#iefix") format("embedded-opentype"),
+		url("../font/Verdana-Italic.woff2") format("woff2"), url("../font/Verdana-Italic.woff") format("woff"),
+		url("../font/Verdana-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Verdana";
+	src: url("../font/Verdana.eot");
+	src: local("Verdana"), url("../font/Verdana.eot?#iefix") format("embedded-opentype"), url("../font/Verdana.woff2") format("woff2"),
+		url("../font/Verdana.woff") format("woff"), url("../font/Verdana.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Anglecia Pro Txt";
+	src: url("../font/AngleciaProText-Regular.eot");
+	src: local("Anglecia Pro Text Regular"), local("AngleciaProText-Regular"),
+		url("../font/AngleciaProText-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../font/AngleciaProText-Regular.woff2") format("woff2"), url("../font/AngleciaProText-Regular.woff") format("woff"),
+		url("../font/AngleciaProText-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Anglecia Pro Dsp";
+	src: url("../font/AngleciaProDisplay-Regular.eot");
+	src: local("Anglecia Pro Display Regular"), local("AngleciaProDisplay-Regular"),
+		url("../font/AngleciaProDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../font/AngleciaProDisplay-Regular.woff2") format("woff2"), url("../font/AngleciaProDisplay-Regular.woff") format("woff"),
+		url("../font/AngleciaProDisplay-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Anglecia Pro Dsp";
+	src: url("../font/AngleciaProDisplay-Italic.eot");
+	src: local("Anglecia Pro Display Italic"), local("AngleciaProDisplay-Italic"),
+		url("../font/AngleciaProDisplay-Italic.eot?#iefix") format("embedded-opentype"),
+		url("../font/AngleciaProDisplay-Italic.woff2") format("woff2"), url("../font/AngleciaProDisplay-Italic.woff") format("woff"),
+		url("../font/AngleciaProDisplay-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Anglecia Pro Tit";
+	src: url("../font/AngleciaProTitle-Regular.eot");
+	src: local("Anglecia Pro Title Regular"), local("AngleciaProTitle-Regular"),
+		url("../font/AngleciaProTitle-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../font/AngleciaProTitle-Regular.woff2") format("woff2"), url("../font/AngleciaProTitle-Regular.woff") format("woff"),
+		url("../font/AngleciaProTitle-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Anglecia Pro Txt";
+	src: url("../font/AngleciaProText-Italic.eot");
+	src: local("Anglecia Pro Text Italic"), local("AngleciaProText-Italic"),
+		url("../font/AngleciaProText-Italic.eot?#iefix") format("embedded-opentype"),
+		url("../font/AngleciaProText-Italic.woff2") format("woff2"), url("../font/AngleciaProText-Italic.woff") format("woff"),
+		url("../font/AngleciaProText-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Anglecia Pro Tit";
+	src: url("../font/AngleciaProTitle-Italic.eot");
+	src: local("Anglecia Pro Title Italic"), local("AngleciaProTitle-Italic"),
+		url("../font/AngleciaProTitle-Italic.eot?#iefix") format("embedded-opentype"),
+		url("../font/AngleciaProTitle-Italic.woff2") format("woff2"), url("../font/AngleciaProTitle-Italic.woff") format("woff"),
+		url("../font/AngleciaProTitle-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+
+body,
+* {
+	font-family: "Verdana", sans-serif;
+}
+h1,
+h2,
+h4,
+h5 {
+	font-family: "Verdana", sans-serif;
+	letter-spacing: 0.1rem;
+}
+
+/* Контакты
+============================================= */
+.sk__contacts {
+	font-size: 1.5rem;
+}
+
+.contacts__btn {
+	background-color: #c9c9e6;
+	border-radius: 5px;
+}
+
+.contacts__btn:hover {
+	background-color: #6c6c91;
+}
+
+/* Для меню ссылки
+============================================= */
+
+.menu-link {
+	color: #464553;
+	letter-spacing: 0.1px;
+}
+
+.menu-link :hover {
+	color: #c7c7c7;
+}
+
+.menu-link :active {
+	color: #c7c7c7;
+}
+
+/* Политика и оферта
+============================================= */
+
+.offer {
+	color: grey;
+	font-size: 0.8rem;
+}
+
+.politics {
+	font-size: 0.8rem;
+	color: grey;
+}
+
+/* Контакты дополнительные стили
+============================================= */
+
+.contact__span {
+	color: grey;
+}
+
+.contact__hr {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 3rem;
+	overflow: hidden;
+}
+
+.contact__hr span {
+	position: relative;
+}
+
+.contact__hr span:before {
+	display: block;
+	width: 1000px;
+	content: "";
+	position: absolute;
+	border-bottom: 1px solid #c7c7c7;
+	top: 50%;
+	right: 110px;
+}
+
+.contact__hr span:after {
+	display: block;
+	width: 1000px;
+	content: "";
+	position: absolute;
+	border-bottom: 1px solid #c7c7c7;
+	top: 50%;
+	left: 110px;
+}
+
+/* Портфолио
+============================================= */
+
+.portfolio__span {
+	color: grey;
+	letter-spacing: 2px;
+}
+
+.portfolio__line {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 3rem;
+	overflow: hidden;
+}
+
+.portfolio__line span {
+	position: relative;
+}
+
+.portfolio__line span:before {
+	display: block;
+	width: 1000px;
+	content: "";
+	position: absolute;
+	border-bottom: 1px solid #c7c7c7;
+	top: 50%;
+	right: 150px;
+}
+
+.portfolio__line span:after {
+	display: block;
+	width: 1000px;
+	content: "";
+	position: absolute;
+	border-bottom: 1px solid #c7c7c7;
+	top: 50%;
+	left: 150px;
+}
+
+/* Отзывы
+============================================= */
+
+.feedback-icon {
+	margin: 0 auto;
+}
+
+.feedback-msg {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.7rem;
+}
+
+.feedback-img {
+	border-radius: 50%;
+}
+
+.fb__name {
+	padding-top: 0.4rem;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.fb__date {
+	margin: 0 auto;
+	padding-top: 0.1rem;
+	text-align: center;
+	font-size: 0.8rem;
+	color: rgb(169, 169, 169);
+}
+
+.feedback__msg-text {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0em;
+	-webkit-font-smoothing: antialiased;
+	color: rgb(105, 105, 105);
+}
+
+.feedback__msg-subtext {
+	color: rgb(105, 105, 105);
+}
+
+/* Цвет заголовков
+============================================= */
+
+h2.about__header {
+	color: rgb(102, 102, 204);
+	margin-bottom: 0;
+	font-family: "Anglecia Pro Display", serif;
+}
+
+/* Для изображений
+============================================= */
+
+.img__block {
+	width: 100%;
+}
+
+.pair-img {
+	margin: 0;
+	width: 100%;
+}
+
+/* О фотографе
+============================================= */
+
+.about-icon {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.about__msg-text {
+	margin-top: 0;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0em;
+	-webkit-font-smoothing: antialiased;
+	color: rgb(105, 105, 105);
+}
+
+.about-img {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.modal-body {
+	height: 30rem;
+}
+
+.modal-title {
+	font-family: Verdana, sans-serif;
+}
+
+.price-modal {
+	max-height: 700px
+}
+
+textarea {
+	height: 10rem;
+}
+
+select {
+	background: #5e6aad;
+	color: #fff;
+}
+
+option {
+	background: #fff;
+	color: #0f0e0f;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.img-icon {
+		width: 50%;
+		margin-left: 30%;
+		margin-bottom: 5%;
+	}
+	.about__header {
+		text-align: center;
+		padding-bottom: 5%;
+	}
+	.about__msg-text {
+		text-align: left;
+	}
+
+	.about__msg-text br{
+		display: none;
+	}
+}
+
+@media (max-width: 576px) {
+	.img-icon {
+		width: 50%;
+		margin-left: 30%;
+		margin-bottom: 5%;
+	}
+	.about__header {
+		text-align: center;
+		padding-bottom: 5%;
+	}
+	.about__msg-text {
+		text-align: left;
+	}
+
+	.about__msg-text br{
+		display: none;
+	}
+	.contacts-wrapper {
+		align-content: center;
+		margin-right: 15%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+	.about-icon {
+		width: 50%;
+	}
+	#logo {
+		margin-left: -30%;
+	}
+}
+
+
+
+
